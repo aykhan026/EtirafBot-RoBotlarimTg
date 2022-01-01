@@ -17,4 +17,4 @@
 ### ⚠️ Qeyd
  Repo <a href="https://t.me/aykhan_s">aykhan_s</a> tərəfindən telethon 1.24 istifadə edilərək yazılıb. Kopyalamaq dəyişdirməy və ya öz githubunuza yükləməy qəti qadağandır
 ## Copyright
-Bizi telegramda izləyin <a href="https://t.me/RoBotlarimTg">RoBotlarım👨🏻‍💻</a>
+Bizi telegramda izləyin <a href="https://t.me/RoBotlarimTg">RoBotlarımTg👨🏻‍💻</a>
