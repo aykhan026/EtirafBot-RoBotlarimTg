@@ -1,1 +1,1 @@
-# EtirafBot-RoBotlarimTg
+# EtirafPy
