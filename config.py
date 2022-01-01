@@ -29,7 +29,6 @@ etiraf_qrup = int(os.environ.get("ETIRAF_QRUP"))
 kanal = os.environ.get("kanal")
 log_qrup = int(os.environ.get("LOG_QRUP"))
 botad = os.environ.get("BOT_AD")
-sahib = int(os.environ.get("SAHIB"))
 
 # Mesajlar
 etirafmsg = os.environ.get("etirafmsg")
@@ -39,9 +38,3 @@ nosahib = os.environ.get("nosahib")
 qrupstart = os.environ.get("qrupstart")
 gonderildi = os.environ.get("gonderildi")
 
-
-# Heroku
-heroku_api = "https://api.heroku.com"
-HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY")
-Heroku = heroku3.from_key(HEROKU_API_KEY)
-#
