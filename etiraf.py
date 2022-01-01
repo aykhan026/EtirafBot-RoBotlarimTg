@@ -176,67 +176,6 @@ async def sil(event):
       await etiraf.delete()
       await event.edit("🗑️ Etiraf Silindi")
       
-# Heroku 
-@client.on(events.NewMessage(pattern=r'/dyno'))
-async def dyno_usage(dyno):
-  if not dyno.sender_id in sahib:
-    await dyno.reply(f"{nosahib}")
-  if dyno.sender_id in sahib:
-    die = await dyno.reply("♻️ **Herokuya bağlanıram...**")
-    useragent = (
-        "Mozilla/5.0 (Linux; Android 10; SM-G975F) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/80.0.3987.149 Mobile Safari/537.36"
-    )
-    user_id = Heroku.account().id
-    headers = {
-        "User-Agent": useragent,
-        "Authorization": f"Bearer {HEROKU_API_KEY}",
-        "Accept": "application/vnd.heroku+json; version=3.account-quotas",
-    }
-    path = "/accounts/" + user_id + "/actions/get-quota"
-    r = requests.get(heroku_api + path, headers=headers)
-    if r.status_code != 200:
-        return await die.edit(
-            "`Xəta: Pis bir şey baş verdi`\n\n" f">.`{r.reason}`\n"
-        )
-    result = r.json()
-    quota = result["account_quota"]
-    quota_used = result["quota_used"]
-
-    """ - İstifadə Olunmuş - """
-    remaining_quota = quota - quota_used
-    percentage = math.floor(remaining_quota / quota * 100)
-    minutes_remaining = remaining_quota / 60
-    hours = math.floor(minutes_remaining / 60)
-    minutes = math.floor(minutes_remaining % 60)
-    day = math.floor(hours / 24)
-
-    """ - Hazırki - """
-    App = result["apps"]
-    try:
-        App[0]["quota_used"]
-    except IndexError:
-        AppQuotaUsed = 0
-        AppPercentage = 0
-    else:
-        AppQuotaUsed = App[0]["quota_used"] / 60
-        AppPercentage = math.floor(App[0]["quota_used"] * 100 / quota)
-    AppHours = math.floor(AppQuotaUsed / 60)
-    AppMinutes = math.floor(AppQuotaUsed % 60)
-
-    await asyncio.sleep(1.5)
-
-    return await die.edit(f"✅ **Heroku ilə əlaqə qurulub** \n\n🛡️ {botad} **Dyno İstifadəsi:**\n"
-                           f"👉 **Programın adı**  **({botad})**:\n\n🔴 **İstifadə olunmuş saatlar:**"
-                           f"\n⏱️ **{AppHours} saat {AppMinutes} dəqiqə**  "
-                           f"\n👉 **Faizlə [{AppPercentage}%]**"
-                           "\n\n"
-                           "🟢 **Qalan dyno saatı:**\n"
-                           f"⏱️ **{hours} saat {minutes} dəqiqə**  "
-                           f"\n👉 **Faizlə**  **[{percentage}%]** "
-                           f"\nℹ️ **Təxmini bitmə müddəti**\n🔆 **{day} gün**"
-                           )
 print(f"{anonim}")
 print(f"{aciq}")
 client.run_until_disconnected()
