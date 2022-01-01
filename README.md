@@ -14,7 +14,7 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/aykhan026/NezrinRobot.git)
 
 
-### Qeyd
- Repo <a href="https://t.me/aykhan_s">aykhan_s</a> tərəfindən hazırlanıb və kopyalamaq dəyişdirməy və ya öz githubunuza yükləməy qadağandır
+### ⚠️ Qeyd
+ Repo <a href="https://t.me/aykhan_s">aykhan_s</a> tərəfindən telethon 1.24 istifadə edilərək yazılıb. Kopyalamaq dəyişdirməy və ya öz githubunuza yükləməy qəti qadağandır
 ## Copyright
 Bizi telegramda izləyin <a href="https://t.me/RoBotlarimTg">RoBotlarım👨🏻‍💻</a>
