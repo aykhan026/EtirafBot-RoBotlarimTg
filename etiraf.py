@@ -7,6 +7,7 @@
 # GitHub - aykhan026
 #################################
 # Bu repo sıfırdan yığılıb
+# Başka github hesabına yükləməy olmaz
 # Reponu öz adına çıxaran peysərdi...!!!
 #################################
 
