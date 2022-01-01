@@ -34,7 +34,6 @@ botad = os.environ.get("BOT_AD")
 etirafmsg = os.environ.get("etirafmsg")
 startmesaj = os.environ.get("startmesaj")
 etirafyaz = os.environ.get("etirafyaz")
-nosahib = os.environ.get("nosahib")
 qrupstart = os.environ.get("qrupstart")
 gonderildi = os.environ.get("gonderildi")
 
