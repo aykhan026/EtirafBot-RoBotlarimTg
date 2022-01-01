@@ -27,7 +27,7 @@ from telethon import TelegramClient, events
 from telethon.tl.functions.messages import ForwardMessagesRequest
 from telethon.sessions import StringSession
 from telethon.tl.types import ChannelParticipantsAdmins
-from config import client, admin_qrup, etiraf_qrup, kanal, log_qrup, etirafmsg, startmesaj, qrupstart, botad, heroku_api, HEROKU_API_KEY, Heroku, sahib, nosahib, qrupstart, gonderildi, etirafyaz
+from config import client, admin_qrup, etiraf_qrup, kanal, log_qrup, etirafmsg, startmesaj, qrupstart, botad, qrupstart, gonderildi, etirafyaz
 
 logging.basicConfig(
     level=logging.INFO,
