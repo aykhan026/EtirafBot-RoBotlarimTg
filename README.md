@@ -1,13 +1,12 @@
 <div align="center">
-  <img src="https://telegra.ph/file/9b788bec1dd6dc3262fa0.jpg" width="300" height="300">
-  <h1>Nəzrin❤️</h1>
+  <h1>💌 EtirafClubBot</h1>
 </div>
 <p align="center">
-    Nəzrin❤️ Telegramda qrupunuzu asanlıqla idarə etməy üçün botdur
+    Telegramda asanlıqla öz qrupunuz üçün etiraf botu yaradın
     <br>
-        <a href="https://t.me/NezrinRobot">Nəzrin❤️</a> |
+        <a href="https://t.me/EtirafClubBot">EtirafClubBot</a> |
         <a href="https://t.me/RoBotlarimTg">Dəstək Kanalı</a> |
-        <a href="https://t.me/RoBotlarimGroup">Dəstək Qrupu</a>
+        <a href="https://t.me/RoBotlarimSup">Dəstək Qrupu</a>
     <br>
 </p>
 
@@ -16,6 +15,6 @@
 
 
 ### Qeyd
- Repo <a href="https://t.me/aykhan_s">Aykhan</a> tərəfindən hazırlanıb
+ Repo <a href="https://t.me/aykhan_s">aykhan_s</a> tərəfindən hazırlanıb və kopyalamaq dəyişdirməy və ya öz githubunuza yükləməy qadağandır
 ## Copyright
 Bizi telegramda izləyin <a href="https://t.me/RoBotlarimTg">RoBotlarım👨🏻‍💻</a>
