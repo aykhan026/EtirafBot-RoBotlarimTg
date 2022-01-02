@@ -51,13 +51,12 @@
          "value": "RoBotlarimTg"
       },
       "startmesaj": {
-         "description": "Timezone modulu üçün API key. https://timezonedb.com/api adresindən alın",
-         "value": "-xyz"
+         "description": "Bota start verilən zaman yazılan mesaj",
+         "value": "**Salam, Xoş Gəldin** __Heçkimə demədiyin etirafları mənə deyə bilərsən__ 🤭"
       },
-      "DEV_USERS": {
-         "description": "Bot developer'lərinin ID. Əgər yoxdursa hazırki ID ləri dəyişməyin.",
-         "required": false,
-         "value": "660565862 459034222 189005567 346981140 367222759 1727079853"
+      "qrupstart": {
+         "description": "Bot əgər hansısa qrupa qatılıbsa start verilərsə qrupda yazdığı mesaj",
+         "value": "✅ **Mən Aktivəm !** 💌 **Etiraf yazmaq üçün şəxsidən yazın**"
       },
       "sw_api": {
          "description": "Spamwatch API Token. @SpamWatchBot botundan alın.",
