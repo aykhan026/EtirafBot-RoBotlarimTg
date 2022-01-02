@@ -58,91 +58,17 @@
          "description": "Bot əgər hansısa qrupa qatılıbsa start verilərsə qrupda yazdığı mesaj",
          "value": "✅ **Mən Aktivəm !** 💌 **Etiraf yazmaq üçün şəxsidən yazın**"
       },
-      "sw_api": {
-         "description": "Spamwatch API Token. @SpamWatchBot botundan alın.",
-         "required": false,
-         "value": ""
+      "etirafmsg": {
+         "description": "Etiraf edilən zaman botun verdiyi sual",
+         "value": "**Etirafını necə paylaşım ?** 🤔"
       }, 
-      "STRICT_GBAN": {
-         "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
-         "value": "True"
+      "etirafyaz": {
+         "description": "Etiraf etməy istəyən istifadəçiyə yazılan mesaj",
+         "value": "**Buyur bir etiraf yaz Daha sonra mən onun açıq və ya anonim olacağını soruşacam** 😍"
       },
-      "DRAGONS": {
-         "description": "A space separated list of user IDs who you want to assign as sudo users.",
-         "required": false,
-         "value": "459034222 189005567 660565862 346981140 367222759 1727079853"
-      },
-      "DEMONS": {
-         "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
-         "required": false,
-         "value": "1727079853"
-      },
-      "TIGERS": {
-         "description": "A space separated list of user IDs who you wanna assign as tiger users.",
-         "required": false,
-         "value": ""
-      },
-      "WOLVES": {
-         "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
-         "required": false,
-         "value": ""
-      },
-      "ENV": {
-         "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
-         "value": "ANYTHING"
-      },
-      "WEBHOOK": {
-         "description": "Setting this to ANYTHING will enable webhooks. If you dont know how this works leave it as it is",
-         "required": false,
-         "value": ""
-      },
-      "PORT": {
-         "description": "Port to use for your webhooks. Better leave this as it is on heroku",
-         "required": false,
-         "value": ""
-      },
-      "URL": {
-         "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
-         "required": false,
-         "value": ""
-      },
-      "No_LOAD": {
-         "description": "Dont load these modules cause they shit, space separation",
-         "required": false,
-         "value": "cleaner rss connection"
-      }, 
-      "BL_CHATS": {
-         "description": "List of chats you want blacklisted.",
-         "required": false,
-         "value": ""
-      },
-      "ALLOW_EXCL": {
-         "description": "Set this to True if you want ! to be a command prefix along with /. Recommended is True",
-         "value": "True"
-      },
-      "DONATION_LINK": {
-         "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
-         "required": false,
-         "value": "https://www.paypal.me/PaulSonOfLars"
-      },
-      "DEL_CMDS": {
-         "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
-         "value": "True"
-      },
-      "AI_API_KEY": {
-      "description": "Make your bot talk using Intellivoid's chatbot API, get your key from https://coffeehouse.intellivoid.net/",
-         "required": false,
-         "value": ""
-   },      
-      "BAN_STICKER": {
-         "description": "ID of the sticker you want to use when banning people.",
-         "required": false,
-         "value": "CAACAgQAAx0CU_rCTAABAczQXyBOv1TsVK4EfwnkCUT1H0GCkPQAAtwAAwEgTQaYsMtAltpEwhoE"
-      },
-      "WALL_API": {
-         "description": "Required for wallpaper. Get your's from https://wall.alphacoders.com/",
-         "required": false,
-         "value": ""
+      "gonderildi": {
+         "description": "Etiraf edəndən sonra yazılan mesaj (öz kanalınızı yazın)",
+         "value": "✅ **Etirafınız göndərildi Adminlər tərəfindən təsdiq olunduqdan sonra @EtirafClub kanalında paylaşılacaq**"
       }
       
    }
