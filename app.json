@@ -11,32 +11,32 @@
    "repository": "https://github.com/aykhan026/EtirafBot-RoBotlarimTg",
    "env": {
       "TOKEN": {
-         "description": "Bot token buraya",
+         "description": "Botunuzun tokenini bura yazın",
          "value": ""
       },
-      "API_ID": {
-         "description": "Telethon bazalı modullar üçün my.telegram.org adresindən Api ID alın.",
+      "APP_ID": {
+         "description": "my.telegram.org adresindən APP ID alın.",
          "value": ""
       },
       "API_HASH": {
-         "description": "Telethon bazalı modullar üçün my.telegram.org adresindən Api Hash alın",
+         "description": "my.telegram.org adresindən API HASH alın",
          "value": ""
       },    
-      "SQLALCHEMY_DATABASE_URI": {
-         "description": "postgres sql db, boş buraxa bilərsiniz.",
-         "value": "sqldbtype://username:pw@hostname:port/db_name"
+      "ADMIN_QRUP": {
+         "description": "Etirafları təsdiqləməy üçün bir qrup yaradın. yaratdığınız botu həmin qrupa atıb admin edib qrup idini bura yazın",
+         "value": "-717273671"
       },      
-      "OWNER_ID": {
-         "description": "Sənin User ID.",
-         "value": "1727079853"
+      "ETIRAF_QRUP": {
+         "description": "Təsdiqlədiyiniz etiraf paylaşılacaq kanal/qrup idini yazın",
+         "value": "-1727079853"
       },
-      "OWNER_USERNAME": {
-         "description": "@ işarəsi olmadan username",
-         "value": "aykhan_s"
+      "LOG_QRUP": {
+         "description": "Bu qrupa botunuz giriş çıxış bilgiləri və xüsusi gizli məlumatlar göndərəcəy bu qrupda yalnız özünüz olun",
+         "value": "-6271773727"
       },
-      "SUPPORT_CHAT": {
-         "description": "Botunuzn Support qrupunun linki @ işarəsi olmadan. Öz qrupunuzu eliyin Pakizənin qrup linkini yox.",
-         "value": ""
+      "kanal": {
+         "description": "Etiraflar paylaşılacaq kanal/qrup linkini bura yazın @ işarəsi olmadan",
+         "value": "EtirafClub"
       },
       "EVENT_LOGS": {
          "description": "Vacib hadisələrin saxlanacağı qrup/kanal ID",
