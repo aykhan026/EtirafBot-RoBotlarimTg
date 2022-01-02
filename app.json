@@ -9,14 +9,6 @@
          "RoBotlarimTg"
       ],   
    "repository": "https://github.com/aykhan026/EtirafBot-RoBotlarimTg",
-   "addons": [
-      {
-         "options": {
-            "version": "12"
-         },
-         "plan": "heroku-postgresql"
-      }
-   ],
    "env": {
       "TOKEN": {
          "description": "Bot token buraya",
