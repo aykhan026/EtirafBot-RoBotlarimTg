@@ -38,22 +38,20 @@
          "description": "Etiraflar paylaşılacaq kanal/qrup linkini bura yazın @ işarəsi olmadan",
          "value": "EtirafClub"
       },
-      "EVENT_LOGS": {
-         "description": "Vacib hadisələrin saxlanacağı qrup/kanal ID",
-         "value": ""
+      "BOT_AD": {
+         "description": "Botun usernamesini bura yazın @ işarəsi ilə",
+         "value": "@EtirafClubBot"
       },
-      "JOIN_LOGGER": {
-         "description": "Botun əlavə olunduğu qruplar bu kanalda/qrupda saxlanılacaq",
-         "value": ""
+      "sahib": {
+         "description": "Bura öz usernamenizi yazın @ işarəsi olmadan",
+         "value": "aykhan_s"
       },      
-      "CASH_API_KEY": {
-         "description": "Valyuta modulu üçün API key. https://www.alphavantage.co/support/#api-key adresindən alın",
-         "required": true,
-         "value": "-xyz"
+      "support": {
+         "description": "Bura support qrupunuz/kanalınız varsa @ işarəsi olmadan yazın yoxdusa olduğu kimi buraxın",
+         "value": "RoBotlarimTg"
       },
-      "TIME_API_KEY": {
+      "startmesaj": {
          "description": "Timezone modulu üçün API key. https://timezonedb.com/api adresindən alın",
-         "required": true,
          "value": "-xyz"
       },
       "DEV_USERS": {
