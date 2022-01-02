@@ -32,4 +32,6 @@ startmesaj = os.environ.get("startmesaj")
 etirafyaz = os.environ.get("etirafyaz")
 qrupstart = os.environ.get("qrupstart")
 gonderildi = os.environ.get("gonderildi")
+support = os.environ.get("support")
+sahib = os.environ.get("sahib")
 
