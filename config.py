@@ -6,9 +6,11 @@
 # Support - t.me/RoBotlarimTg
 # GitHub - aykhan026
 #################################
+#################################
 # Bu repo sıfırdan yığılıb
 # Başka github hesabına yükləməy olmaz
 # Reponu öz adına çıxaran peysərdi...!!!
+#################################
 #################################
 
 import os
@@ -36,4 +38,8 @@ qrupstart = os.environ.get("qrupstart")
 gonderildi = os.environ.get("gonderildi")
 support = os.environ.get("support")
 sahib = os.environ.get("sahib")
+#
+# RoBotlarimTg
+# RoBotlarimTg
+# RoBotlarimTg
 
